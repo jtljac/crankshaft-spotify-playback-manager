@@ -1,4 +1,4 @@
-// TODO: in future use types package
+// TODO: this will have proper types once a types package is available
 type SMM = any;
 
 export const load = (smm: SMM) => {
