@@ -1,10 +1,9 @@
-// TODO: this will have proper types once a types package is available
-type SMM = any;
+import { SMM } from '@crankshaft/types';
 
 export const load = (smm: SMM) => {
   console.info('Template plugin loaded!');
 };
 
-export const unload = () => {
+export const unload = (smm: SMM) => {
   console.info('Template plugin unloaded!');
-}
+};

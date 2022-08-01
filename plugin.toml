@@ -2,7 +2,7 @@ name = "TODO"
 version = "TODO"
 link = "TODO"
 source = "TODO"
-min-crankshaft-version = "0.1.5"
+min-crankshaft-version = "0.2.2"
 
 [author]
 name = "TODO"
@@ -18,3 +18,8 @@ link = "TODO"
 	library = false
 	menu = false
 	quick-access = false
+
+[store]
+description = """
+TODO
+"""
