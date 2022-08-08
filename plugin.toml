@@ -1,12 +1,12 @@
-name = "TODO"
-version = "TODO"
-link = "TODO"
-source = "TODO"
+name = "Spotify Playback Manager"
+version = "1.0.0"
+link = "https://github.com/jtljac"
+source = "https://github.com/jtljac"
 min-crankshaft-version = "0.2.2"
 
 [author]
-name = "TODO"
-link = "TODO"
+name = "jtljac"
+link = "https://jacob-lucas.uk"
 
 [entrypoints]
 
@@ -17,9 +17,4 @@ link = "TODO"
 	[entrypoints.deck]
 	library = false
 	menu = false
-	quick-access = false
-
-[store]
-description = """
-TODO
-"""
+	quick-access = true
